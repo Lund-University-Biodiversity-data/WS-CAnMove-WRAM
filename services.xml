@@ -1,0 +1,11 @@
+<service name="DataProvider" >
+	<Description>
+		Please Type your service description here
+	</Description>
+	<messageReceivers>
+		<messageReceiver mep="http://www.w3.org/ns/wsdl/in-only" class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver" />
+		<messageReceiver  mep="http://www.w3.org/ns/wsdl/in-out"  class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+	</messageReceivers>
+	<operation name="RunDataProviderConnectorQuery"></operation>
+	<parameter name="ServiceClass" locked="false">se.lu.canmove.ws.DataProvider</parameter>
+</service>
