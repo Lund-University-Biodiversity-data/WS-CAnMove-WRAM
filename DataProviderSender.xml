@@ -2,7 +2,7 @@
 <java version="1.7.0_51" class="java.beans.XMLDecoder">
  <boolean>true</boolean>
  <boolean>true</boolean>
- <string>wramqle1-1.data.slu.se</string>
+ <string>wramqle2-1.slu.se</string>
  <string>org.postgresql.Driver</string>
  <string>jdbc:postgresql:canmove</string>
  <string>canmove</string>
